@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/student_page/static/css/main.b7a80c9e.chunk.css",
+    "main.js": "/student_page/static/js/main.d2229e32.chunk.js",
+    "main.js.map": "/student_page/static/js/main.d2229e32.chunk.js.map",
+    "runtime-main.js": "/student_page/static/js/runtime-main.7ea87e04.js",
+    "runtime-main.js.map": "/student_page/static/js/runtime-main.7ea87e04.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/student_page/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.b191d565.chunk.js": "/student_page/static/js/2.b191d565.chunk.js",
+    "static/js/2.b191d565.chunk.js.map": "/student_page/static/js/2.b191d565.chunk.js.map",
+    "index.html": "/student_page/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/student_page/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.b7a80c9e.chunk.css.map": "/student_page/static/css/main.b7a80c9e.chunk.css.map",
+    "static/js/2.b191d565.chunk.js.LICENSE.txt": "/student_page/static/js/2.b191d565.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/student_page/static/media/logo1.bab9d4fa.png",
+    "static/media/style_gate.scss": "/student_page/static/media/preloader.1e1b1420.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ea87e04.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.b191d565.chunk.js",
+    "static/css/main.b7a80c9e.chunk.css",
+    "static/js/main.d2229e32.chunk.js"
+  ]
+}
