@@ -1,0 +1,179 @@
+.modal,
+.modali,
+.modal_nw {
+  z-index: 999999999 !important;
+}
+.ni {
+  .nt tr {
+    height: 2px !important;
+  }
+  #auth {
+    border-collapse: collapse;
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 3vh;
+    overflow-y: scroll;
+    font-size: 0.75rem;
+  }
+  #auth td,
+  #auth th,
+  #hd th {
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding: 2px;
+    text-align: center;
+  }
+
+  #auth tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+
+  #auth tr:hover {
+    background-color: #ddd;
+  }
+
+  /* The Modal (background) */
+  .modal,
+  .modal_nw {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999999999999999999999999999999999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #337ab7;
+    color: white;
+  }
+  .modal-header h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* Modal Content/Box */
+  .modal-content,
+  .modal-contenti {
+    position: fixed;
+    background-color: #ffffff;
+    margin: 15% 35%; /* 15% from the top and centered */
+    padding: 10px;
+    border: 1px solid #888;
+    width: 30%;
+    height: auto; /* Could be more or less, depending on screen size */
+  }
+  .modal-contenti {
+    height: auto !important;
+  }
+  .profilei {
+    height: 20vh !important;
+  }
+  .profile,
+  .profilei {
+    /*background-color: rgb(211, 207, 207);*/
+    background-color: rgb(238, 238, 238);
+    width: auto;
+    height: 78%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: ridge;
+    border-color: rgba(128, 128, 128, 0.075);
+    margin: 10px;
+    margin-top: 15px;
+  }
+  .Tag-no {
+    margin-bottom: 10px;
+    background-color: rgba(32, 31, 31, 0.897);
+    color: snow;
+    font-weight: 550;
+  }
+  .txt {
+    margin: 0 15px;
+  }
+  .submit-part input {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 6px;
+    border-style: ridge;
+    box-sizing: border-box !important;
+    border-color: rgba(0, 0, 0, 0.397) !important;
+  }
+  .submit-part button {
+    float: right;
+    margin-top: 4vh;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 5px;
+  }
+  .close-button,
+  .close-buttoni {
+    background-color: #337ab7;
+    color: snow;
+    border: 0.5px solid blue;
+  }
+  .close-buttoni {
+    margin-right: 2vw;
+  }
+  /* The Close Button */
+  .close {
+    color: rgb(255, 255, 255);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  @media only screen and (min-width: 825px) {
+    .modal-content {
+      min-width: 500px;
+    }
+  }
+  /* Medium screens */
+  @media only screen and (max-width: 1130px) {
+    #auth {
+      height: 80vh !important;
+    }
+  }
+  @media only screen and (max-width: 825px) {
+    .modal-content,
+    .modal-contenti {
+      margin: 25% 15%;
+      width: 70%; /* Could be more or less, depending on screen size */
+    }
+    .profile,
+    .profilei {
+      width: auto;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    .modal-content,
+    .modal-contenti {
+      margin: 45% 2.5%;
+      width: 90%; /* Could be more or less, depending on screen size */
+    }
+    .modal,
+    .modali {
+      position: fixed;
+      margin: 0;
+      width: 100% !important;
+    }
+    .profile,
+    .profilei {
+      width: 84%;
+    }
+  }
+}
